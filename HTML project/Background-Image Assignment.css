@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: navy;
+    list-style: navy;
+    box-sizing: border-box;
+}
+.Container{
+    width: 100%;
+    height: 100vh;
+    background-image:url(./1079551.png);
+    background-repeat: no-repeat;
+    background-position: right 10% bottom 40%;
+    background-size: 30% 70%;
+}
+header{
+    background-color: blue;
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 3rem;
+}
+
+.navbar-left{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.navbar-right{
+    display:flex;
+    justify-content: flex-end;
+    width: 30%;
+    gap: 2rem;
+}
+.navbar-right .register{
+    border-radius: 0.4rem;
+    border: 2px solid rgb(219, 19, 19);
+    padding: 0.5rem 0.8rem;
+}
+header .a{
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+header .a:hover{
+    opacity: 2;
+}
